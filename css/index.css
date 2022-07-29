@@ -1,0 +1,216 @@
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-items{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    left: 50px;
+
+}
+.nav-item{
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 20px;
+}
+body{
+    padding-left: 60px;
+    padding-top: 60px;
+}
+.active-item:hover{
+    color: #FE5E35;
+    font-weight: 600;
+}
+.intro-section{
+    display:flex ;
+    flex-direction: row;
+    justify-content: space-around;
+    /* align-items: center; */
+}
+.right-section{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+.headphone-div{
+    display: flex;
+    flex-direction: column;
+}
+.discount{
+    /* position: relative;
+    bottom: 50px; */
+    order: 2;
+    width: 150px;
+    position: relative;
+    bottom: 220px;
+    right: 45px;
+}
+.discount-content{
+    font-family: 'Fredoka One';
+    font-style: normal;
+    font-weight: 400;
+    position: relative;
+    bottom: 400px;
+    color: #fff;
+    order: 2;
+}
+.discount-content>h4{
+    font-family: 'Poppins';
+    font-weight: 100;
+    font-size: 15px;
+    position: relative;
+    top: 45px;
+}
+.discount-content>h1{
+    font-weight: 100;
+    font-size: 50px; 
+    position: relative;
+    top: 5px;
+    right: 15px;
+}
+.right-section>button{
+    padding: 10px 10px ;
+    width: 180px;
+    background-color: #FE5E35;
+    color: #fff;
+    font-family: 'Poppins';
+    font-weight: 100;
+    font-size: 15px;
+    border-radius: 25px;
+    border-color: #FE5E35;
+    border-style: solid;
+    position: relative;
+    bottom: 230px;
+    left: 160px;
+    /* align-items: center; */
+}
+/* .dot::before{
+    content: "";
+    width: 30px;
+    height: 30px;
+    display: block;
+    border-radius: 15px;
+} */
+.yellow-dot::before{
+    content: "";
+    width: 30px;
+    height: 30px;
+    display: block;
+    border-radius: 15px;
+    background-color:#fbd104 ;
+    margin-right: 15px ;
+}
+.tomato-dot::before{
+    content: "";
+    width: 30px;
+    height: 30px;
+    display: block;
+    border-radius: 15px;
+    background-color:#FE5E35;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.black-dot::before{
+    content: "";
+    width: 30px;
+    height: 30px;
+    display: block;
+    border-radius: 15px;
+    background-color: #000;
+    margin-left: 15px;
+}
+.dots{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 280px;
+
+}
+.left-section{
+    display: flex;
+    flex-direction: column;
+}
+.left-section>h3{
+    font-family: 'Poppins';
+    font-weight: 200;
+    font-size: 35px;
+}
+img[alt~="circles"]{
+    width: 40px;
+}
+.left-section>h1{
+    font-family: 'Fredoka One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 70px; 
+    position: relative;  
+    bottom: 70px;
+}
+.sub-headlines{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.sub-headline{
+    font-family: 'Poppins';
+    font-weight: 200;
+    font-size: 20px;
+}
+.sub-headlines>h5{
+    position: relative;
+    left: 90px;
+    bottom: 120px;
+    
+}
+.sub-headline::after{
+    content: "";
+    width: 30px;
+    height: 30px;
+    display: block;
+    border-radius: 15px;
+    background-color:#FE5E35;
+    position: relative;
+    left: -10px;
+    bottom: 30px;
+}
+img[alt~="plus"]{
+    position: relative;
+    z-index: 1; 
+    right: 7.2px;
+    top: 5.0px;
+}
+.text{
+    font-family: 'Poppins';
+    font-weight: 200;
+    font-size: 15px;  
+    color: #303030;
+    width: 600px;
+    position: relative;
+    bottom: 130px;
+}
+.action-btn{
+    padding: 10px 10px ;
+    width: 180px;
+    background-color: #FE5E35;
+    color: #fff;
+    font-family: 'Poppins';
+    font-weight: 100;
+    font-size: 15px;
+    border-radius: 25px;
+    border-color: #FE5E35;
+    border-style: solid;   
+    margin-left: 10px;
+    margin-right: 10px;
+    position: relative;
+    bottom: 100px;
+}
