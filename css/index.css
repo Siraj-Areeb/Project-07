@@ -236,3 +236,54 @@ img[alt~="plus"]{
     position: relative;
     bottom: 100px;
 }
+
+@media only screen and (max-width: 600px) {
+    body{
+        padding: 30px;
+    }
+    .nav-item{
+        display: none;
+    }
+    .intro-section{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .right-section{
+        width: 80vw;
+        justify-content: center;
+        align-items: center;
+    }
+    .left-section{
+        width: 80vw;
+        justify-content: center;
+    }
+    .left-section>h3{
+        font-size: 30px;
+    }
+    .text{
+        width: 80vw;
+    }
+    .sub-headlines{
+        padding-top: 20px;
+        position: relative;
+        left: -50px;
+    }
+    .sub-headline{
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin: 0px;
+    }
+    img[alt~="headphone"]{
+        width: 80vw;
+    }
+    .dots
+    {
+        position: relative;
+        bottom: 330px;
+    }
+    .action-btn2{
+        position: relative;
+        bottom: 300px;
+    }
+  }
